@@ -1,0 +1,11 @@
+.telescope{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.text_link{
+    text-decoration: none;
+    color: #3333ff;
+}
