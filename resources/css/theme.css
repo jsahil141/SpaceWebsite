@@ -83,8 +83,9 @@ nav a {
 	transition: all .5s ease;
 }
 nav li:hover a {
-	background: #696969;
-	color:#FFF;
+    border-bottom: 2px solid white;
+	/*background: #696969;
+	color:#FFF;*/
 }
 nav li ul {
 	/*float: left;*/
