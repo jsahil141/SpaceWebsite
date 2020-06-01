@@ -6,26 +6,12 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/7.1%20Grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/theme.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/planets_index.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/hubble.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-        <style>
-        .container .box:nth-child(1){
-            grid-column: span 2;
-            grid-row: span 2;
-        }
-        
-        .container .box:nth-child(2){
-            grid-column: span 2;
-            grid-row: span 2;
-        }
-        .container .box img{
-            height: 300px;
-            width: auto;
-        }
-        
-        </style>    
     </head>
     <body>
+        <header>
             <nav>
                 <div class= "row">
                     <a href="index.html">
@@ -39,11 +25,12 @@
                         </li>
                         <li class="main-li">
                             <a class="dropdown" href="galaxies_index.html">Galaxies</a>
-                            
+                             
                         </li>
                         <li class="main-li">
                             <a class="dropdown" href="events_index.html">Events</a>
-                                                    </li>    
+                            
+                        </li>    
                         
                         <li class="main-li">
                             <a class="dropdown" href="telescope_index.html">Space Telescopes</a>
@@ -53,32 +40,23 @@
                     </div>    
                 </div>
             </nav>
-        
+                                <img  class="telescope" src="resources/images/Andromeda/Andromeda.jpg" alt="Hubble Space Telescope" height="500px" width="auto">
+
+        </header>
         <section class="section-features">
-                <div class="col-span-1-of-2">
-                    <div class="container" style="margin-left: 60px">
-                        <div class="box">
-                            <div class="content">
-                                <a class="links" href="big_bang.html">
-                            <img src="resources/images/big_bang/big_bang.jpg">
-                            <p class="links">Big Bang</p>
-                                    </a>
-                        </div>
-                    </div>
-                        
-                    <div class="box">
-                        <div class="content">
-                            
-                            <a class="links" href="black_hole.html">
-                            <img src="resources/images/black_hole/blackhole.png">
-                            <p class="links">Black Hole</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                </div>        
+            <div class="row">
+                <div class="center_text">
+                    <h1>M31(The Andromeda Galaxy)</h1><br>
+                       <p> Assembled from a total of 7,398 exposures taken over 411 individual pointings of the telescope, this image of our nearest major galactic neighbor, M31, is the largest Hubble mosaic to date. The 1.5 billion pixels in the mosaic reveal over 100 million stars and thousands of star clusters embedded in a section of the pancake-shaped disk of M31, also known as the Andromeda galaxy. Though the galaxy is over 2 million light-years away, Hubble is powerful enough to resolve individual stars in this 61,000-light-year-long stretch of the disk. It’s like photographing a beach and resolving individual grains of sand.</p><br>
+
+                        <p>Hubble traces densely packed stars extending from the innermost hub of the galaxy, seen at left. Moving out from this central galactic bulge, the panorama sweeps across lanes of stars and dust to the sparser outer disk. Cooler, yellowish stars dominate the center of the galaxy, toward the lower left. The blue, ring-like feature that wraps from the upper left to the lower right is a spiral arm with numerous clusters of young, blue stars and star-forming regions. The dark silhouettes trace out complex dust structures.</p><br>
+
+                        <p>M31 is located in the constellation Andromeda and is best observed in November. Boasting an apparent magnitude of 3.1, the galaxy can be seen with the naked eye, even in areas with moderate light pollution. Because it is such an easily observed feature in the night sky, it is impossible to say who discovered the Andromeda galaxy. However, Persian astronomer Abd al-rahman al-Sufi’s The Book of Fixed Stars from the year 964 contains the first known report of the object.(Source: nasa.gov)</p><br>
+
+                </div>                                                                                                            
+            </div>
         </section>
-        <footer style="padding: none">
+        <footer>
                 <div class="row">
                     <div class="col span-1-of-2">
                     
@@ -91,7 +69,7 @@
                             <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
                         </ul>
                     </div>
-                    <div class="foot_para" style="margin-top: 100px">
+                    <div class="foot_para">
                     <p> Copyright &copy; Cosmological Elements. All rights reserved.</p>
                     </div>
             
