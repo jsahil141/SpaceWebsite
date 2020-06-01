@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+header, section{
+    background-image: url(images/home3.jpg);
+}
+header{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+/*---------------------------------------------------------------------------------------*/
+/*-------Dropdown menu--------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+.main-nav{
+    float: right;
+}
+
+.main-nav li{
+    display: inline-block;    
+}
+
+.main-nav li a{
+    padding: 8px 0;
+    color: white;
+    font-size: 90%;
+   
+}
+nav ul {
+	-webkit-font-smoothing: antialiased;
+	list-style: none;
+	padding: 0;
+	width: 100%;
+   
+}
+nav .main{
+    margin-top: 50px;
+}
+nav .main-li{
+    margin-left: 40px;
+}
+nav li {
+	
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+nav a {
+	
+	display: block;
+	/*padding: 0 25px;*/
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+nav li:hover a {
+	background: #696969;
+	color:#FFF;
+}
+nav li ul {
+	/*float: left;*/
+	
+	width:160%;
+	opacity: 0;
+	position: absolute;
+	/*top: 35px;*/
+	visibility: hidden;
+	z-index: 1;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+nav li:hover ul {
+	opacity: 1;
+	/*top: 50px;*/
+	visibility: visible;
+}
+nav li ul li {
+	float: none;
+	width: 100%;
+}
+nav li ul a:hover {
+	background: #bbb;
+}
+/* Clearfix */
+.main-nav:after, .main-nav:before {
+	content: "";
+	display: table;
+}
+.main-nav:after {
+	clear: both;
+}
+/*---------------------------------------------------------------------------------------*/
+/*-------Footer--------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+footer
+{
+    padding: 50px;
+}
+.social-links{
+    float: right;
+    list-style: none;
+    
+}
+.social-links li{
+    margin-left: 10px;
+    display: inline-block; 
+}
+ion-icon {
+  color: white;
+}
+
+footer p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 85%;
+    margin-top: 100px;
+}
+ion-icon:hover{
+    color: #00aced;
+}
