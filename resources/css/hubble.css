@@ -2,10 +2,35 @@
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: auto;
+  max-width:100%;
+  background-blend-mode: lighten;
 }
 
 .text_link{
     text-decoration: none;
     color: #3333ff;
 }
+
+.center_text p{
+    font-size: 17px;
+}
+
+.center_text h1,h3{
+    color:#0066ff; 
+ 
+}
+/*
+.side_image{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-font-smoothing: antialiased;
+line-height: 1.42857143;
+color: #333;
+font-size: 1.1em;
+font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+box-sizing: border-box;
+display: table;
+max-width: 320px;
+float: right;
+clear: right;
+margin: 0.5em 0em 2em 2em;
+width: 320px;
+margin-bottom: 3em;}*/
