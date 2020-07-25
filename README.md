@@ -1,5 +1,5 @@
 # SpaceWebsite
-cosmological elements website
+cosmological elements website. I created this website as a project of my end semester submission.
 
 ## Resources
 
